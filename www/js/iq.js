@@ -878,22 +878,6 @@ $(document).ready(function() {
         '           <input type="submit" value="CEVAPLA">' +
         '       </form>' +
         '   </div>' +
-        '</div>',
-        '<div class="soru" id="s55">' +
-        '   <div class="ust">' +
-        '       <p></p>' +
-        '   </div>' +
-        '   <div class="alt">' +
-        '       <form id="form55" method="post">' +
-        '           <ul>' +
-        '               <li><input type="radio" name="cevap55" value="yanlis"></li>' +
-        '               <li><input type="radio" name="cevap55" value="yanlis"></li>' +
-        '               <li><input type="radio" name="cevap55" value="dogru"></li>' +
-        '               <li><input type="radio" name="cevap55" value="yanlis"> </li>' +
-        '           </ul>' +
-        '           <input type="submit" value="CEVAPLA">' +
-        '       </form>' +
-        '   </div>' +
         '</div>'];
 
 
@@ -903,11 +887,11 @@ $(document).ready(function() {
 
     var sayilar = new Array();
 
-    for (var i = 0; i < 20; i++) {  //etiketler etiketlerin oldugu dizi.. kendiniz oluşturabilirsiniz ya da etiketler veri tabanından geliyosa  var etiketler=$(".etiketclassi"); şeklinde alabilirsiniz.
-        var randomnumber = Math.floor(Math.random() * 52); //0ile10 arası rakam
-        if (sayilar.indexOf(randomnumber)==-1) { // dizideki indexine bakıyorum -1 ise yani yoksa
+    for (var i = 0; i < 15; i++) {
+        var randomnumber = Math.floor(Math.random() * 50);
+        if (sayilar.indexOf(randomnumber)==-1) {
 
-            sayilar.push(randomnumber);// diziye ekliyorum
+            sayilar.push(randomnumber);
             $(".sorular").append(sorular[randomnumber]);
         }
         else { //varsa i'yi 1 düşürüp başa döndüp yine rakam üretiyorum.. böylece aynı rakam gelse bile başa dönüp yine rakam üretecek!
@@ -948,16 +932,16 @@ function inputClick() {
         }
         $(".sorular").children().hide();
         $(".sorular .soru:nth-child("+$soruSay+")").css('display','block');
-        if($soruSay > 20){
+        if($soruSay > 15){
             $('.sorular').hide();
             $('.footer').show();
-            if($dogrusay <= 5){
+            if($dogrusay <= 3){
                 $(".footer h1 .sonuc").append("ORTALAMANIN ALTI <br>70 - 84");
             }
-            else if($dogrusay <=10){
+            else if($dogrusay <=7){
                 $(".footer h1 .sonuc").append("ORTALAMA<br>85 - 114");
             }
-            else if($dogrusay <=15){
+            else if($dogrusay <=11){
                 $(".footer h1 .sonuc").append("ORTALAMANIN ÜSTÜ<br>115 - 129");
             }
             else{
