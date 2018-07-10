@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.iqtest" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>IQ Test </name>
+    <description>
+        IQ Zeka Testi, Hayatın içinden kesitlerle bir araya gelen beyni yoran,kimi zaman aşırı heyecana sebep olan
+türlerine göre sıradışı bir uygulamadır. Uygulama sayesinde sahip olduğunuz IQ değerinizi. Hemen hemen yakın bir
+şekilde görmüş olursunuz.Dikkat! Bu uygulama arkadaşlarınız arasında rekabete de sebep olacaktır.
+
+Uygulamanın çalışma mantığı çok basittir.
+
+*Binlerce soru arasından rastgele 20 soru size sunulur.
+*Test sonrası bilinen doğru ve yanlış sayısına göre mantıksal IQ değeriniz hesaplanır.
+
+IQ Zeka Testi, mobil uygulama ile okulda,parkta,otobüs beklerken,herhangibir vakitte veya canınız çok sıkıldığında
+her an yanınızda olan bir aktivite ve kişisel gelişim kaynağıdır.
+Uygulama sayesinde kendinizi geliştirebilir.Karşınızdaki insanlara meydan okuyabilirsiniz.
+
+Etiketler:
+Zeka Testi,IQ Hesaplama,Zeka Oyunları,Kişisel Gelişim,Bilgi Oyunları,Zor Oyunlar,Zeka Oyunu
+    </description>
+    <author email="furkan-demirtrk@yandex.com" href="">
+        Furkan Demirtürk
+    </author>
+    <content src="index.html" />
+    <icon src="splash.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="res/36.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="res/48.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="res/72.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="res/96.png" />
+    <icon gap:platform="ios" height="57" src="res/36.png" width="57" />
+    <icon gap:platform="ios" height="72" src="res/72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="res/72.png" width="114" />
+    <icon gap:platform="ios" height="144" src="res/144.png" width="144" />
+    <icon gap:platform="webos" src="res/64.png" />
+    <icon gap:platform="winphone" src="res/48.png" />
+    <icon gap:platform="winphone" gap:role="background" src="res/196.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="res/36.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="res/48.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="res/72.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/96.png" />
+    <gap:splash gap:platform="ios" height="480" src="res/36.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="res/72.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="res/72.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="res/144.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="res/196.png" width="1024" />
+    <gap:splash gap:platform="winphone" src="res/196.jpg" />
+</widget>

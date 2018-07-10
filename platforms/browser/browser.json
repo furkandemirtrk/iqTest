@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-admob-sdklibs": {
+            "PACKAGE_NAME": "com.phonegap.iqtest"
+        },
+        "cordova-plugin-admob-simple": {
+            "PACKAGE_NAME": "com.phonegap.iqtest"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-admob-simple/www/AdMob.js",
+            "id": "cordova-plugin-admob-simple.AdMob",
+            "pluginId": "cordova-plugin-admob-simple",
+            "clobbers": [
+                "window.plugins.AdMob"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-admob-sdklibs": "2.1.4",
+        "cordova-plugin-admob-simple": "3.2.0"
+    }
+}

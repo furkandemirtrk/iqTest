@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: "Maindra";
+    src: url('../fonts/maindra.ttf') format("opentype");
+
+}
+body{background: url(../img/bg.jpg)}
+*{font-family: 'Maindra';}
+
+.content{max-width:500px;margin:0 auto;padding:10px 30px;position: relative;}
+.content .soru .ust{min-height: 200px;margin-bottom: 30px;text-align: justify}
+.content .soru .ust p{font-size:20px;}
+.content .soru .alt{}
+.content .soru .alt form input{background:#ff9211;}
+.content .soru .alt form input[type="submit"]{outline:none;width:100%;background:#fff;color:#ff9211;border:none;border-radius:13px;padding: 10px 20px;font-size: 30px;}
+.content .soru .alt ul li{font-weight:bold;font-size:20px;text-align:center;position:relative;background: #ff9211;padding: 10px 15px;border-radius: 10px;margin-bottom: 10px;}
+.content .soru .alt ul li:nth-child(5){background: #219ad9;}
+.content .soru .alt ul li.active:nth-child(5){background: #0c6494;}
+.content .soru .alt ul li.active{background: yellow;}
+.content .soru .alt form input[type="radio"]{position: absolute;width: 98%;opacity: 0;height: 35px;top: 0;left:0;}
+.sorular .soru{display:none;}
+
+div#fullpage {display: none; width:100%; height:100%; margin:0; padding:0; border:0px solid red; text-align:center; vertical-align:middle; }
+button { font-size: 22px; }
+
+.sorular{display: none;}
+
+.footer{text-align:center; display: none}
+.header{text-align: center;}
+.header h1, .footer h1{color: #ff9211;text-align: center;font-size: 42px;margin-bottom: 30px;}
+.header .logo, .footer .logo{width:100%;text-align: center;margin:30px 0    ;}
+.header .logo img, .footer .logo img{max-width: 70%;}
+.header .oyunaBasla, .footer .tekrarDene{border: none;background: #fdfdfd;padding: 15px 33px;color: #0a5d99;font-weight: bold;border-radius: 20px;width: 70%;font-size: 27px;}
+
+sup{font-size:8px;}
+
+p.soru-img{text-align: center;}
+p.soru-img img{max-width: 70%;}
